@@ -1,0 +1,12 @@
+Source: ros-melodic-robot-activity-msgs
+Section: misc
+Priority: extra
+Maintainer: Maciej ZURAD <maciej.zurad@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-message-runtime, ros-melodic-std-msgs
+Homepage: http://www.ros.org/wiki/robot_activity_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-robot-activity-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-generation, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: This package contains messages used by robot_activity, such as node's state and error
