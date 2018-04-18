@@ -1,0 +1,12 @@
+Source: ros-indigo-robot-activity-msgs
+Section: misc
+Priority: extra
+Maintainer: Maciej ZURAD <maciej.zurad@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-message-runtime, ros-indigo-std-msgs
+Homepage: http://www.ros.org/wiki/robot_activity_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-robot-activity-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-generation, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: This package contains messages used by robot_activity, such as node's state and error
