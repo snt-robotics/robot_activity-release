@@ -1,0 +1,15 @@
+ros-melodic-robot-activity-msgs (0.1.1-0bionic) bionic; urgency=high
+
+  * package renamed to robot_activity_msgs
+  * Contributors: Maciej Zurad
+
+ -- Maciej ZURAD <maciej.zurad@gmail.com>  Tue, 17 Apr 2018 22:00:00 -0000
+
+ros-melodic-robot-activity-msgs (0.1.0-0bionic) bionic; urgency=high
+
+  * adding robot_process_msgs::State and robot_process_msgs::Error
+  * Contributors: Maciej Zurad
+
+ -- Maciej ZURAD <maciej.zurad@gmail.com>  Thu, 12 Apr 2018 22:00:00 -0000
+
+
