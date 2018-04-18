@@ -1,0 +1,12 @@
+Source: ros-melodic-robot-activity
+Section: misc
+Priority: extra
+Maintainer: Maciej ZURAD <maciej.zurad@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-robot-activity-msgs, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-rostest, ros-melodic-std-srvs
+Homepage: http://www.ros.org/wiki/robot_activity
+Standards-Version: 3.9.2
+
+Package: ros-melodic-robot-activity
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-robot-activity-msgs, ros-melodic-roscpp, ros-melodic-std-srvs
+Description: The robot_activity package implements ROS node lifecycle
