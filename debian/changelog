@@ -1,0 +1,17 @@
+ros-indigo-robot-activity-tutorials (0.1.1-0trusty) trusty; urgency=high
+
+  * package renamed to robot_activity_tutorials
+  * Contributors: Maciej Zurad
+
+ -- Maciej ZURAD <maciej.zurad@gmail.com>  Tue, 17 Apr 2018 22:00:00 -0000
+
+ros-indigo-robot-activity-tutorials (0.1.0-0trusty) trusty; urgency=high
+
+  * adding minimal robot_process example impl in a single C++ file
+  * adding minimal robot_process example as library and node executable
+  * adding roslint
+  * Contributors: Maciej Zurad
+
+ -- Maciej ZURAD <maciej.zurad@gmail.com>  Thu, 12 Apr 2018 22:00:00 -0000
+
+
