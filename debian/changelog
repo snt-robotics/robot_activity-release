@@ -1,0 +1,20 @@
+ros-melodic-robot-activity (0.1.1-0artful) artful; urgency=high
+
+  * package renamed to robot_activity
+  * Contributors: Maciej Zurad
+
+ -- Maciej ZURAD <maciej.zurad@gmail.com>  Tue, 17 Apr 2018 22:00:00 -0000
+
+ros-melodic-robot-activity (0.1.0-0artful) artful; urgency=high
+
+  * initial beta release
+  * RobotProcess working with heartbeat and state services
+  * ManagedRobotProcess working with managed subscriber and services
+  * IsolatedAsyncTimer working but still separate from managed subscriber and services
+  * basic tests added for RobotProcess
+  * roslint added
+  * Contributors: Maciej Zurad
+
+ -- Maciej ZURAD <maciej.zurad@gmail.com>  Thu, 12 Apr 2018 22:00:00 -0000
+
+
