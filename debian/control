@@ -1,0 +1,12 @@
+Source: ros-lunar-robot-activity-msgs
+Section: misc
+Priority: extra
+Maintainer: Maciej ZURAD <maciej.zurad@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-message-generation, ros-lunar-message-runtime, ros-lunar-std-msgs
+Homepage: http://www.ros.org/wiki/robot_activity_msgs
+Standards-Version: 3.9.2
+
+Package: ros-lunar-robot-activity-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-message-generation, ros-lunar-message-runtime, ros-lunar-std-msgs
+Description: This package contains messages used by robot_activity, such as node's state and error
