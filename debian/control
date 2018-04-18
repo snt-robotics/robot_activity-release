@@ -1,0 +1,12 @@
+Source: ros-lunar-robot-activity-tutorials
+Section: misc
+Priority: extra
+Maintainer: Maciej ZURAD <maciej.zurad@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-robot-activity, ros-lunar-roscpp, ros-lunar-roslint, ros-lunar-std-srvs
+Homepage: http://www.ros.org/wiki/robot_activity_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-lunar-robot-activity-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-robot-activity, ros-lunar-roscpp, ros-lunar-std-srvs
+Description: The robot_activity_tutorials package
