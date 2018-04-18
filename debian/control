@@ -1,0 +1,12 @@
+Source: ros-indigo-robot-activity-tutorials
+Section: misc
+Priority: extra
+Maintainer: Maciej ZURAD <maciej.zurad@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-robot-activity, ros-indigo-roscpp, ros-indigo-roslint, ros-indigo-std-srvs
+Homepage: http://www.ros.org/wiki/robot_activity_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-robot-activity-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-robot-activity, ros-indigo-roscpp, ros-indigo-std-srvs
+Description: The robot_activity_tutorials package
